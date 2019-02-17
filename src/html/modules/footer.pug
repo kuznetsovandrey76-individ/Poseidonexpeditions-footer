@@ -3,12 +3,12 @@ footer.footer.mt-5
     .container
       .row
         .col-lg-8.col-md-12.mb-4.p-md-0.text-center
-          img(src='/img/iaato.png', alt='IAATO')
-          img(src='/img/authentic.png', alt='Authentic')
-          img(src='/img/clean_up_svalbard.png', alt='Clean Up Svalbard')
-          img(src='/img/logo_atta_for_site_2.png', alt='ATTA')
-          img(src='/img/pbi.png', alt='Polar bear international')
-          img(src='/img/aeco.png', alt='AECO')
+          img(src='./img/iaato.png', alt='IAATO')
+          img(src='./img/authentic.png', alt='Authentic')
+          img(src='./img/clean_up_svalbard.png', alt='Clean Up Svalbard')
+          img(src='./img/logo_atta_for_site_2.png', alt='ATTA')
+          img(src='./img/pbi.png', alt='Polar bear international')
+          img(src='./img/aeco.png', alt='AECO')
         .col-lg-4.col-md-12
           form(action='#', method='post')
             .subs-group
@@ -16,7 +16,7 @@ footer.footer.mt-5
               p.d-block.mb-2 Latest news, tips and deals
             .input-group
               input.form-control(name='email', type='text', placeholder='Email address')
-              span.input-group-btn
+              span
                 button.btn.btn-default.btn-primary(type='submit') JOIN
 
 #accordionExample.accordion.mb-3
@@ -25,10 +25,10 @@ footer.footer.mt-5
       .col-md-3.col-sm-12 
         label.font-weight-bolder.d-none.d-md-block 
           | Our Destinations        
-        #headingOne.border.d-md-none.corner-down
+        #headingOne.border.d-md-none.footer-menu__heading.corner-down
           h2
             button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
-              | Our Destinations           
+              | Our Destinations   
         ul#collapseOne.collapse.d-md-block.pl-3.pt-2.p-md-0(data-parent='#accordionExample')
           li
             a(href='#') Antarctica
@@ -41,7 +41,7 @@ footer.footer.mt-5
       .col-md-3.col-sm-12 
         label.font-weight-bolder.d-none.d-md-block 
               | Travel Information        
-        #headingTwo.border.d-md-none.corner-down
+        #headingTwo.border.d-md-none.corner-down.footer-menu__heading.corner-down
           h2
             button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='true', aria-controls='collapseTwo')
               | Travel Information           
@@ -61,7 +61,7 @@ footer.footer.mt-5
       .col-md-3.col-sm-12 
         label.font-weight-bolder.d-none.d-md-block 
           | About us       
-        #headingThree.border.d-md-none.corner-down
+        #headingThree.border.d-md-none.corner-down.footer-menu__heading.corner-down
           h2
             button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='true', aria-controls='collapseThree')
               | About us       
@@ -81,7 +81,7 @@ footer.footer.mt-5
       .col-md-3.col-sm-12 
         label.font-weight-bolder.d-none.d-md-block 
           | Contacts  
-        #headingFour.border.d-md-none.corner-down
+        #headingFour.border.d-md-none.corner-down.footer-menu__heading.corner-down
           h2
             button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseFour', aria-expanded='true', aria-controls='collapseFour')
               | Contacts

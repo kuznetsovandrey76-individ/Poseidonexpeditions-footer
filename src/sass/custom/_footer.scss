@@ -70,3 +70,18 @@ h2 button {
         border-bottom: 2px solid #333;
     }
 }
+
+.corner-up {
+    &:before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        transform: rotate(45deg);
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 40px;
+        border-left: 2px solid #333;
+        border-top: 2px solid #333;
+    }
+}
