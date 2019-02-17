@@ -1,0 +1,57 @@
+
+.footer-menu {
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    label {
+        text-transform: uppercase;
+    }
+
+    a {
+        text-transform: uppercase;
+        color: #999;
+    }
+}
+
+.my {
+    text-transform: uppercase;
+    text-decoration: none !important;
+    color: black;
+    // color: #999;  
+
+    &:hover {
+        color: black;
+        text-decoration: none !important;       
+    }
+}
+
+.qwe {
+    margin-top: -5px;
+}
+
+.border {
+    margin-bottom: -1px;
+}
+
+
+#accordionExample {
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    label {
+        text-transform: uppercase;
+    }
+    button {
+        color: #333 !important;
+        text-decoration: none !important;
+
+    }
+    a {
+        text-transform: uppercase;
+        color: #999;
+    }
+}
