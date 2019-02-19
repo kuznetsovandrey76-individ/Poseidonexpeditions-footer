@@ -1,61 +1,44 @@
-
 .footer-menu {
     ul {
         list-style-type: none;
         padding-left: 0;
-    }
-
+   }
     label {
         text-transform: uppercase;
-    }
-
+   }
     a {
         text-transform: uppercase;
         color: #999;
-    }
+   }
 }
-
-
-.qwe {
-    margin-top: -5px;
-}
-
 .border {
     margin-bottom: -1px;
 }
-
-
 #accordionExample {
     ul {
         list-style-type: none;
         padding-left: 0;
-    }
-
+   }
     label {
         text-transform: uppercase;
-    }
+   }
     button {
         color: #333 !important;
         text-decoration: none !important;
-
-    }
+   }
     a {
         text-transform: uppercase;
         color: #999;
-    }
+   }
 }
-
 h2 button {
     text-transform: uppercase;
 }
-
 .subscribe-block {
-
     img {
         padding: 5px;
-    }
+   }
 }
-
 .corner-down {
     &:before {
         content: "";
@@ -68,9 +51,8 @@ h2 button {
         right: 40px;
         border-right: 2px solid #333;
         border-bottom: 2px solid #333;
-    }
+   }
 }
-
 .corner-up {
     &:before {
         content: "";
@@ -83,5 +65,14 @@ h2 button {
         right: 40px;
         border-left: 2px solid #333;
         border-top: 2px solid #333;
-    }
+   }
+}
+.button-custom {
+    background: 1px solid $custom-blue;
+    border: 1px solid $custom-blue;
+    color: #fff;
+    padding: 0 10px;
+}
+.custom-blue {
+    color: $custom-blue;
 }
